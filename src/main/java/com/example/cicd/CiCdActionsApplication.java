@@ -23,4 +23,5 @@ public class CiCdActionsApplication {
         return "greeting";
     }
 
+
 }
