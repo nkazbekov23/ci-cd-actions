@@ -18,4 +18,9 @@ public class CiCdActionsApplication {
         return "Welcome to ci cd";
     }
 
+    @GetMapping("/g")
+    public String greeting() {
+        return "greeting";
+    }
+
 }
